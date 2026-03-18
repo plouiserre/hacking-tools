@@ -17,7 +17,7 @@ Les projets partagés dans ce repository sont UNIQUEMENT à but éducatif. Ils n
 
 ## Projets
 A l'heure actuelle le seul projet présent dans ce repo est : 
-- Password Cracker [a link](https://github.com/plouiserre/hacking-tools/tree/readme/tools/password_cracker) : c'est un craker de mot passe fonctionnable sur des applicatifs web pour le moment.
+- [Password Cracker](https://github.com/plouiserre/hacking-tools/tree/readme/tools/password_cracker) : c'est un craker de mot passe fonctionnable sur des applicatifs web pour le moment.
 
 ## Youtube
 A compléter plus tard

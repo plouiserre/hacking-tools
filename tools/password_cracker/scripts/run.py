@@ -17,4 +17,4 @@ print(str(python))
 main_file = grand_parent_path/"src"/"cli"/"main.py"
 print(main_file)
 
-subprocess.run([str(python), str(main_file)] )
+subprocess.run([str(python), str(main_file), "toto"] )

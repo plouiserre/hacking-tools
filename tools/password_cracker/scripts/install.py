@@ -17,5 +17,6 @@ subprocess.call(["python ","-m", "venv", ".venv"])
 print("---------------------------VENV END---------------------------")
 
 print("---------------------------PIP INSTALL -E .---------------------------")
-subprocess.call(["pip", "install", "-e", "."])
+pip = str(Path(__file__).parent.parent)+"\.venv\Scripts\pip.exe"
+subprocess.call([pip, "install", "-e", "."])
 print("---------------------------PIP INSTALL -E .---------------------------")

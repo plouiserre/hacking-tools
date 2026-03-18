@@ -7,12 +7,12 @@ Ce projet permet de cracker des mots de passe dans des interfaces webs.
 
 ## Sommaire
 - [Installation](#installation)
-- [Use](#use)
-- [Tests](#tests)
-- [Structure du projet](#structure-of-project)
+- [Utilisation](#utilisation)
+- [Dépendances](#dépendances)
+- [Structure du projet](#structure-du-projet)
 - [Autors](#autors)
 
-## Première utilisation 
+## Installation
 Pour la première utilisation il faut lancer les deux scripts : 
 - install.py : il créé l'environnement virtuel et installe toutes les dépendances pour faire fonctionner ce projet
 - run.py : il exécute simplement le programme
@@ -31,20 +31,18 @@ Lancer run.py :
 python run.py
 ```
 
-## A partir de la deuxième utulisation
+## Utilisation
 Il suffit juste de lancer le script run.py
 ```bash
 cd tools/password_cracker/scripts
 python run.py
 ```
 
-## Tests
-Execute all tests : 
-```bash
-python -m unittest discover -s tests
-```
+## Dépendances
+Voici les librairies dont le projet a besoin pour fonctionner : 
+- requests
 
-## Structure of project
+## Structure du projet
 La structure du projet à partir du dossier "password_cracker"
 ```
 password_cracker
@@ -52,6 +50,8 @@ password_cracker
 ├─── src/
 │   ├───cli/
 │       ├───main.py
+    ├───core/
+        ├───requests.py
 ```
 
 ## Autors
